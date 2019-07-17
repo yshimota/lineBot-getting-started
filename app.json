@@ -23,17 +23,9 @@
       "size": "Performance-M"
     }
   },
-  "image": "heroku/php",
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-php"
     }
-  ],
-  "environments": {
-    "test": {
-      "scripts": {
-        "test": "bundle exec rake test"
-      }
-    }
-  }
+  ]
 }
